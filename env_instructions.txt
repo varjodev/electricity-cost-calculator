@@ -1,0 +1,7 @@
+# Install conda (miniconda) and add to Path if not
+
+# Create a new conda environment if you don't have one for data analysis (put your desired name to the place of "data_analysis", it can be whatever)
+conda create -n data_analysis
+
+conda install pandas
+conda install openpyxl 
