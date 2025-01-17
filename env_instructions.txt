@@ -3,5 +3,8 @@
 # Create a new conda environment if you don't have one for data analysis (put your desired name to the place of "data_analysis", it can be whatever)
 conda create -n data_analysis
 
+# Activate the environment (you need to do this every time you run these codes)
+conda activate data_analysis
+
 conda install pandas
 conda install openpyxl 
